@@ -1,0 +1,20 @@
+# Ignorar archivos de audio
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.wma
+
+# IDE
+.idea/
+.venv/
+
+# Virtual Eviroment
+q-web-mult/
+
+tmp/
+downloads/
+
+
