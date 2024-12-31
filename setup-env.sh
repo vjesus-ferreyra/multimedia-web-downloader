@@ -7,7 +7,7 @@ sudo apt update
 if [ -z "$is_ffmpeg" ]; then
 	echo "Se detecto que no tiene instalado ffmpeg, por lo cual se procederá con su instalación"
 	sudo apt install -y ffmpeg
-	if command -v ffmpeg > /dev/null 2>&1; then:
+	if [ -z "$is_ffmpeg" ]; then:
 		echo "El comando ffmpeg se instalo correctamente"
 	else
 		echo "El comando ffmpeg no se instalo correctamente"
